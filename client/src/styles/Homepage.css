@@ -1,0 +1,89 @@
+.banner {
+  width: 100%;
+}
+
+.flip-card {
+  width: 350px;
+  height: 400px;
+  perspective: 1000px;
+  border-radius: 110px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  border-radius: 1.2rem;
+  background-color: rgb(255, 200, 10);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-card-back {
+  border-radius: 1.2rem;
+  background-color: rgb(255, 200, 10);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Iconcolor {
+  background-color: rgb(39, 201, 85);
+}
+
+.cardColor {
+  background-color: black;
+}
+
+.Imagesize {
+  width: 250px;
+}
+
+.Imagesize1 {
+  height: 200px;
+  padding-left: 70px;
+}
+
+.row {
+  margin-left: 50px;
+}
+
+.cardheader {
+  color: rgb(186, 12, 12);
+}
+
+.bodyHeading {
+  padding-left: 42%;
+  text-decoration: underline;
+  text-decoration-color: rgb(186, 12, 12);
+}
+
+.workcards {
+  padding-top: 100px;
+}
+
+.workcardheader {
+  padding-left: 42%;
+  text-decoration: underline;
+  text-decoration-color: rgb(186, 12, 12);
+}/*# sourceMappingURL=Homepage.css.map */

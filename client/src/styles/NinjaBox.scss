@@ -1,0 +1,212 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+  
+.carousel-container {
+  width: 70%;
+  flex: 1;
+}
+  
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+  
+.NinjaBox {
+  background-color: rgb(600, 200, 10);
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  max-width: 30%;
+}
+.ninjaheadding {
+  margin-bottom: 10px;
+}
+.ninjaheadding2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+  
+  .ninjaheader {
+    color: rgb(186, 12, 12) ;
+    font-weight: bold;
+  }
+  
+  .ninjaheader2 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .ninjaboximage {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .ninjaboxbtn{
+    background-color: rgb(600, 200, 10) ;
+    width: 200px;
+    height: 50px;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .ninjaboxbtn:hover{
+    background-color:rgb(239, 156, 11);
+  }
+  .specialboxheadding {
+    padding-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(186, 12, 12);
+  }
+  
+  @media (max-width: 768px) {
+    .specialboxheadding {
+      font-size: 2rem;
+    }
+  }
+  
+  .row{
+    padding-top: 3rem;
+  }
+  .cardbody{
+    background-color:white;
+    box-shadow:0 4px 30px rgba(500, 200, 200, 10);
+    border-radius: 1rem;
+  }
+  .cardtitle{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cardColor{
+    background-color: rgba(241, 217, 64, 0.756);
+  }
+  .cardpara{
+    font-size: 0.8rem;
+    padding-left: 0.6rem;
+   
+  }
+  .ninjaboxpackagebody{
+    padding-top: 3rem;
+    width: 100%;
+    height: auto;
+    background-color:rgb(241, 247, 248);
+  }
+  .ninjaboxpackageheadding{
+    margin-left: 38%;
+    text-decoration: underline;
+    text-decoration-color: rgb(186, 12, 12) ;
+    font-weight:700;
+  }
+  .space{
+    padding-top: 5rem;
+  }
+  .packagecard{
+    width: 22rem;
+    border-radius: 1.2rem;
+    margin-top: 3rem;
+  }
+  .cardtitle{
+    color:rgb(186, 12, 12) ;
+    text-align: center;
+  }
+  .cardtext{
+    text-align: center;
+  }
+.cardbutton{
+  background-color:rgb(239, 156, 11) ;
+  margin-left: 20%;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+}
+
+
+
+
+
+
+.NinjaBox {
+  background-color: rgb(600, 200, 10);
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  max-width: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+
+.ninjaheadding {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.ninjaheadding2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.ninjaheader {
+  color: rgb(186, 12, 12);
+  font-weight: bold;
+}
+
+.ninjaheader2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ninjaboximage {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.ninjaboxbtn {
+  background-color: rgb(600, 200, 10);
+  width: 70%;
+  max-width: 200px;
+  height: 50px;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .NinjaBox {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ninjaheadding {
+    font-size: 1.5rem;
+  }
+
+  .ninjaheadding2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .ninjaboxbtn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .ninjaboximage {
+    max-width: 200px;
+  }
+}

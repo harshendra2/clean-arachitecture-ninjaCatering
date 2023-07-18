@@ -1,0 +1,42 @@
+
+  .header {
+    font-size: 36px; /* Increase the font size as needed */
+    margin-left: 10%;
+  }
+  
+ .header {
+    color: rgb(186, 12, 12); /* Set the color of the word "Cater" to red */
+  }
+  .logo {
+    display: inline-block;
+    width: 3em; /* Adjust the width as needed */
+    height: 3em; /* Adjust the height as needed */
+    vertical-align: middle;
+  }
+  
+
+  .captcha-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .captcha-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .h3 {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .refresh-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
